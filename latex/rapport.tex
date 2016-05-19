@@ -1,0 +1,130 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage{rapportutc}
+\usepackage{setspace}
+\usepackage[final]{pdfpages}
+
+\title{\textbf{Rapport de période d'apprentissage} \\Troisième année}
+\author{Thomas \bsc{kieffer}}
+\date{\today}
+
+\uv{PAE03}
+\semestre{A15 - P16}
+\branche{Génie Informatique}
+\filiere{Ingénierie des}
+\specialite{Systèmes d'Information}
+
+\suiveurutc{Vincent \bsc{fremont}}
+\suiveurets{Guillaume \bsc{gesquière}}
+\entreprise{Vallourec Tubes France}
+\logoets{\includegraphics[width=6cm]{img/logoets.jpg}}
+\lieustage{CTIV Saint-Saulve, France}
+
+
+\begin{document}
+\stagepdtitre
+\restoregeometry
+\onehalfspacing
+\tableofcontents
+
+\chapter{Remerciements}
+\paragraph{}
+Avant de commencer ce rapport je tiens à remercier les personnes avec qui j'ai travaillé au cours de cette dernière année : Romain, Rémi, Jérémy, Aurélie, Klaus et Andreas de l'équipe \textit{Lan \& Cabling}, Frédéric et Benjamin de l'équipe \textit{ToIP, Wan \& Global Services}, Stéphane, Jérôme et Maxime de l'équipe \textit{Internet Security}, pour toutes le connaissances qu'ils m'ont apportées. Et bien évidemment Guillaume pour sa disponibilité et son écoute.
+
+\paragraph{}
+Merci aussi à tous mes collègues du CTIV, notamment les équipes \textit{Server}, \textit{Workstation}, \textit{Windows}, \textit{Linux}, pour leurs enseignements.
+
+\paragraph{}
+Merci également aux responsables apprentissage de l'UTC  ainsi qu'à mon tuteur, M. Fremont, qui on su être disponibles et de bon conseil.
+
+\chapter{Introduction}
+\section{Objectifs du rapport}
+Ce rapport représente la clôture de ma troisième (et dernière) année d'apprentissage, une nouvelle année riche en changements et en enseignements variées. Je présenterai les différentes activités que j'ai été amené à réaliser au cours de cette période en expliquant leur intérêt dans ma formation. Ce document va également me permettre de prendre le recul nécessaire à l'analyse des ces trois années passées au sein de Vallourec, de faire une mise au point sur mes acquis, mes compétences et ma capacité à exercer le métier auquel j'ai été formé. Je reviendrai également sur ma vision du métier d'ingénieur et mon aptitude à l'exercer.
+
+\section{Contexte d'entreprise}
+Cette section a pour objectif de remettre brièvement le lecteur dans le contexte de Vallourec afin de mieux comprendre mon environnement de travail. Ce contexte ayant peu évolué en comparaison de l'année précédente, les idées sont très semblables à celles exprimées en introduction de mon rapport de l'année précédente.
+
+\paragraph{}
+Le groupe Vallourec fournit des solutions tubulaires pour de nombreuses applications industrielles. 
+Les deux tiers du chiffre d'affaires annuel de Vallourec proviennent du marché du pétrole et du gaz. Par conséquent, la santé de l'entreprise en est très dépendante. L pris très faibles du baril de pétrole au cours de cette année ont fortement impacté les clients de Vallourec qui ont ralenti leur rythme de commandes de tubes. L'activité des usines a donc continué à ralentir, ce qui a conduit à des périodes de chômage partiel voire à der fermetures de lignes de production. Comme ultime conséquence le plan Vallourec a annoncé début 2016 un plan social visant à réduire d'au moins un tiers le nombre de postes en France. Les fonctions support telles que l'informatique on également souffert du ralentissement de l'activité des usines : celles-ci n'ayant plus moyen de financer les projets d'évolution, ceux-ci se retrouvent bloqués.
+
+\section{L'équipe, rôle et enjeux}
+Mon poste de travail est basé au Centre de Traitement de l'Information de Vallourec (CTIV), lui-même localisé à Saint-Saulve près de Valenciennes. Le CTIV est le cœur informatique de Vallourec sur l'Europe, l'Afrique et le Moyen-Orient (\textit{EMEA}), c'est ici que sont prises les décisions les plus importantes concernant l'informatique, et que sont gérés les incidents, les problèmes et les évolutions d'architecture.
+\paragraph{}
+Au sein du département \textit{Infrastructure}, j'appartiens à l'équipe réseau du CTIV, cette équipe est elle même subdivisée en trois sous-équipes :
+\begin{itemize}
+\item L'équipe Internet Sécurité qui gère les communications entre le réseau interne Vallourec et l'extérieur, ce qui inclut les accès internet et les systèmes de protection tels que les pare-feu.
+\item L'équipe ToIP, WAN \& Global Services est responsable de l'infrastructure de téléphonie sur IP ainsi que des connexions inter-sites du réseau Vallourec.
+\item L'équipe LAN \& Cabling, à laquelle j'appartiens, est en charge des connexion réseau intra-sites, de leur maintenance et de leur évolution.
+\end{itemize}
+
+\section{Bilan de l'année 2}
+Au terme de la seconde année d'apprentissage, je tirai un bilan très positif de ma progression : j'avais acquis de nombreuses connaissances techniques qui me permettaient de prendre en charge la grande majorité des incidents qui survenaient soumis à l'équipe ce qui m'a permis d'être beaucoup plus autonome. Au delà du plan technique, j'avais également acquis une meilleur aisance relationnelle qui me permettait d'échanger plus facilement et efficacement avec mes collègues.
+
+Au terme de ce rapport ainsi que de cette seconde année d'apprentissage, je tire un bilan positif de ma progression. En effet, cette deuxième année a été très riche en enseignements, autant sur le plan technique pur que savoir faire et savoir être ainsi que la connaissance du métier. Je suis devenu plus efficace et plus performant dans mon travail, ce qui m'a permis de prendre la responsabilité de tâches plus importantes. Prise de responsabilités qui a engendré une plus grande autonomie : je suis désormais capable de réaliser les tâches de maintenance sans avoir besoin de l'assistance de mes collègues et je peux prendre en charge les incidents lorsqu'ils sont soumis à l'équipe. J'ai grandement apprécié cette prise d'autonomie tout au long de cette année, cela m'a permis de me sentir utile à l'équipe.
+\paragraph{}
+Ma progression à été très importante au cours de cette année, ce dont je suis assez fier. La différence avec la première année est importante, et j'espère qu'il en sera de même pour la troisième année. Troisième année au cours de laquelle j'espère également avoir la possibilité de m'investir encore plus dans la gestion de projet ce qui me permettra d'améliorer ma capacité de décision ainsi que mes connaissances techniques évidemment.
+
+\section{Objectifs et souhaits} %de moi perso
+Au début de cette troisième année, j'espérais progresser aussi vite qu'au cours de la seconde année. Je souhaitais augmenter encore mes compétences techniques mais également monter en compétences sur un aspect plus organisationnel, gestion de tâches/projets et prendre plus de responsabilités que je n'en avais lors de l'année précédente.\\
+Un des points qui me tenait à cœur au début de cette troisième année était de m'éloigner progressivement des tâches de maintenance opérationnelle pour me consacrer à des projets d'évolutions du parc. Je souhaitais également avoir la possibilité de prendre en charge un projet afin d'en découvrir les aspects et les méthodes de gestion.
+
+%AJOUTER DES CHOSES ICI
+
+\chapter{Activités réalisées}
+Cette partie va me permette de décrire les activités réalisées au cours de cette dernière année. Pour chacune d'entre elles, en plus d'expliquer en qui elles ont consisté, je tenterai d'analyser l'intérêt que ces tâches et projets ont eu pour ma formation, les différentes enseignements que j'en ai tiré.
+\paragraph{}
+Au cours de cette année, j'ai été amené à contribuer à de nombreux projets et tâches. Néanmoins, au delà de la maintenance opérationnelle effectuée au quotidien, la grande majorité de ces tâches s'inscrivaient dans des grandes catégories : Sécurisation du réseau, supervision \& gestion des équipements, architecture WiFi. Du fait que ces sujets m'intéressaient particulièrement, je m'y suis auto-formé lors des périodes mois chargées ce qui m'a permis d'acquérir des compétences très solides sur ces sujets et ainsi de devenir très performant. C'était donc les sujets qui m'étaient confiés en priorité.
+
+\section{Maintenance opérationnelle}
+De même que l'année précédente, la maintenance opérationnelle (appelée \textit{run}) a occupé une partie importante de mon temps au cours de cette année. Pour rappel, le \textit{run} regroupe un grand nombre de tâches telles que la configuration d'équipements, le déplacement sur site pour changer un appareil défectueux, l'application de mises à jour sur les équipements en production, la résolution d'incidents, etc ... En résumé, il s'agit de toutes les actions que l'équipe doit entreprendre pour assurer le fonctionnement du réseau informatique au quotidien et pour que les utilisateurs puissent travailler. Comme les années précédentes je ne pourrai pas décrire toutes les tâches réalisées dans le cadre du \textit{run}. Dans les paragraphes suivants, je présenterai les tâches et aspects les plus intéressants du \textit{run} sur lesquels j'ai travaillé au cours de cette année.
+
+\subsection{Support client}
+\subsection{Remplacement d'équipements en fin de vie} % + d'autonomie
+\subsection{Diagnostic pont Wifi}
+\subsection{Recul sur le \textit{run}}
+Avec le recul, je remarque que les tâches de maintenance opérationnelle on peu changé depuis l'année précédente. Je note néanmoins, que mon expérience m'a permis d'augmenter mes connaissances techniques et mon aisance vis-à-vis de mes collègues ce qui me permettait d'être beaucoup plus efficace dans la prise en charge et la gestion d'incidents. En effet, je suis capable de déterminer très rapidement l'origine d'un problème et de mettre en place une solution pour le résoudre rapidement. Cet aspect du travail est très gratifiant, j'apprécie apporter mon aide à mes collègues et clients et entendre leur satisfaction.
+
+\section{Sécurisation du réseau}
+\subsection{Enjeux}
+\subsection{Cisco ACS}
+\subsection{Projet \textit{Common ACS}}
+\subsection{Projet 802.1X} %machines + iphones
+\subsection{Résultats}%apports personnels et pour l'entreprise
+\section{Supervision et gestion des équipements}
+\subsection{Objectifs et enjeux}
+\subsection{Étude de différents outils}
+\subsection{Résultats}
+\subsection{Prise en main des outils choisis}
+\subsection{Rapports de performance}
+\subsection{Gestion des configurations}
+\section{Architectures WiFi}
+\subsection{Changement d'architecture}
+\subsection{Pont WiFi contrôlé}
+\section{Projets et missions transverses}
+\subsection{Définition, objectifs et enjeux}
+\subsection{Mise à jour des loadbalancers F5}
+\subsection{Suppression des firewalls PaloAlto}
+\subsection{Projet \textit{DataCenter revamping}}
+\subsection{Mise à jour des appareils de visioconférence}
+\subsection{Mise ne production d'un serveur Hyper-V}
+\subsection{Résultats et enseignements}
+\section{Retours et enseignements}
+
+\chapter{Formation, compétences et métier}
+\section{Vision du métier de l'ingénieur}
+\section{Métier cible de la formation}
+\section{Progression au cours de la formation}
+\section{Compétences et capacités}
+\section{Mise en perspectives et limites}
+% lâche touuuut !
+\section{Retour sur la formation par alternance}
+\section{Liens avec les enseignements}
+
+\chapter{International}
+\section{Contexte de travail au quotidien}
+\section{Écosse ??}
+
+\chapter{Conclusion}
+
+\end{document}
