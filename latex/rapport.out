@@ -21,21 +21,21 @@
 \BOOKMARK [2][]{subsection.3.3.1}{Objectifs et enjeux}{section.3.3}% 21
 \BOOKMARK [2][]{subsection.3.3.2}{\311tude de diff\351rents outils}{section.3.3}% 22
 \BOOKMARK [2][]{subsection.3.3.3}{R\351sultats}{section.3.3}% 23
-\BOOKMARK [2][]{subsection.3.3.4}{Prise en main des outils choisis}{section.3.3}% 24
-\BOOKMARK [2][]{subsection.3.3.5}{Rapports de performance}{section.3.3}% 25
-\BOOKMARK [2][]{subsection.3.3.6}{Gestion des configurations}{section.3.3}% 26
-\BOOKMARK [1][]{section.3.4}{Architectures WiFi}{chapter.3}% 27
-\BOOKMARK [2][]{subsection.3.4.1}{Changement d'architecture}{section.3.4}% 28
-\BOOKMARK [2][]{subsection.3.4.2}{Pont WiFi contr\364l\351}{section.3.4}% 29
-\BOOKMARK [1][]{section.3.5}{Projets et missions transverses}{chapter.3}% 30
-\BOOKMARK [2][]{subsection.3.5.1}{D\351finition, objectifs et enjeux}{section.3.5}% 31
-\BOOKMARK [2][]{subsection.3.5.2}{Mise \340 jour des loadbalancers F5}{section.3.5}% 32
-\BOOKMARK [2][]{subsection.3.5.3}{Suppression des firewalls PaloAlto}{section.3.5}% 33
-\BOOKMARK [2][]{subsection.3.5.4}{Projet DataCenter revamping}{section.3.5}% 34
-\BOOKMARK [2][]{subsection.3.5.5}{Mise \340 jour des appareils de visioconf\351rence}{section.3.5}% 35
-\BOOKMARK [2][]{subsection.3.5.6}{Mise ne production d'un serveur Hyper-V}{section.3.5}% 36
-\BOOKMARK [2][]{subsection.3.5.7}{R\351sultats et enseignements}{section.3.5}% 37
-\BOOKMARK [1][]{section.3.6}{Retours et enseignements}{chapter.3}% 38
+\BOOKMARK [2][]{subsection.3.3.4}{Rapports de performance}{section.3.3}% 24
+\BOOKMARK [2][]{subsection.3.3.5}{Automatisation des t\342ches}{section.3.3}% 25
+\BOOKMARK [1][]{section.3.4}{Architectures WiFi contr\364l\351es}{chapter.3}% 26
+\BOOKMARK [2][]{subsection.3.4.1}{D\351finition, contexte et objectifs}{section.3.4}% 27
+\BOOKMARK [2][]{subsection.3.4.2}{Pr\351paration du contr\364leur}{section.3.4}% 28
+\BOOKMARK [2][]{subsection.3.4.3}{Architecture contr\364l\351e FlexConnect}{section.3.4}% 29
+\BOOKMARK [2][]{subsection.3.4.4}{Pont WiFi}{section.3.4}% 30
+\BOOKMARK [1][]{section.3.5}{Projets et missions transverses}{chapter.3}% 31
+\BOOKMARK [2][]{subsection.3.5.1}{D\351finition, objectifs et enjeux}{section.3.5}% 32
+\BOOKMARK [2][]{subsection.3.5.2}{Mise \340 jour des loadbalancers F5}{section.3.5}% 33
+\BOOKMARK [2][]{subsection.3.5.3}{Suppression des firewalls PaloAlto}{section.3.5}% 34
+\BOOKMARK [2][]{subsection.3.5.4}{Projet DataCenter revamping}{section.3.5}% 35
+\BOOKMARK [2][]{subsection.3.5.5}{Architecture du datatcenter}{section.3.5}% 36
+\BOOKMARK [2][]{subsection.3.5.6}{Mise en production d'un serveur Hyper-V}{section.3.5}% 37
+\BOOKMARK [2][]{subsection.3.5.7}{R\351sultats et enseignements}{section.3.5}% 38
 \BOOKMARK [0][]{chapter.4}{Formation, comp\351tences et m\351tier}{}% 39
 \BOOKMARK [1][]{section.4.1}{Vision du m\351tier de l'ing\351nieur}{chapter.4}% 40
 \BOOKMARK [1][]{section.4.2}{M\351tier cible de la formation}{chapter.4}% 41
@@ -46,5 +46,5 @@
 \BOOKMARK [1][]{section.4.7}{Liens avec les enseignements}{chapter.4}% 46
 \BOOKMARK [0][]{chapter.5}{International}{}% 47
 \BOOKMARK [1][]{section.5.1}{Contexte de travail au quotidien}{chapter.5}% 48
-\BOOKMARK [1][]{section.5.2}{\311cosse ??}{chapter.5}% 49
+\BOOKMARK [1][]{section.5.2}{\311cosse !!}{chapter.5}% 49
 \BOOKMARK [0][]{chapter.6}{Conclusion}{}% 50
